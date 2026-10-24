@@ -47,23 +47,23 @@ Include at least five visualizations from the EDA notebook. For each visualizati
 The Power BI dashboard is provided in `InternNova_Week5_Retail_Sales.pbix`. Include a screenshot of the completed dashboard in the final report. Describe the KPI cards, visualizations, and slicers that are actually present in the dashboard.
 
 ## 10. Business Insights
-Document at least five findings supported by the EDA charts or Power BI dashboard.
 
-1. [Insight supported by a chart or KPI]
-2. [Insight supported by a chart or KPI]
-3. [Insight supported by a chart or KPI]
-4. [Insight supported by a chart or KPI]
-5. [Insight supported by a chart or KPI]
+1. **Overall Sales Performance:** The Power BI dashboard displays total sales of approximately 156K under the current filter context.
+2. **Average Sales:** The Average Sales KPI displays 443.25, providing a summary of the average sales measure used in the dashboard.
+3. **Transaction Activity:** The dashboard reports 351 transactions under the current filter context, helping summarize transaction volume.
+4. **Gender-Based Sales Distribution:** The donut chart displays approximately 81K in sales for male customers and 74K for female customers in the current view.
+5. **Sales Trends Over Time:** The line charts show sales variation across dates and time periods, allowing the business to explore changes in sales activity.
+
+*Note: KPI values and category comparisons should be rechecked after clearing the Product Category slicer, as the current selection may affect the results.*
 
 ## 11. Business Recommendations
-Provide at least two recommendations linked to the findings above.
 
-1. [Recommendation linked to a verified finding]
-2. [Recommendation linked to a verified finding]
+1. **Monitor Sales Trends:** Review periods with higher and lower sales in the time-series charts to support inventory planning and promotional decisions.
+2. **Evaluate Customer Segments:** Compare sales across genders and product categories using the dashboard filters before making customer-targeted marketing decisions.
 
 ## 12. Conclusion
-This project demonstrates a retail data analytics workflow using Python, data visualization, Power BI, and GitHub. The final findings and recommendations are based on the analysis performed on the selected dataset.
 
+This project demonstrates an end-to-end retail analytics workflow using Python, exploratory data analysis, data visualization, Microsoft Power BI, and GitHub. The dashboard summarizes sales performance and supports exploration of transaction details, customer segments, product categories, and sales trends. The analysis provides a foundation for evidence-based business decisions.
 ## 13. Project Files
 - `retail_sales_dataset.csv.xlsx` — dataset file
 - `InternNova_Week4_EDA (1).ipynb` — EDA notebook
